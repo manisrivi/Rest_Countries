@@ -22,7 +22,7 @@ res.then((data) => data.json())
             col.innerHTML = `<div class="card m-3 zoom shadow-lg  p-1 bg-body rounded" style="width: 18rem;">
        <img height="200" src="${country.flags.png}" class="card-img-top" alt="...">
        <div class="card-body text-center">
-         <h6 class="card-title fw-bold">Country: ${country.name.common}<br><br>
+         <h6 class="card-title fw-bold">Country: ${country.name}<br><br>
            Capital: ${country.capital} <br><br>
            Region: ${country.region} <br>
          </h6>
